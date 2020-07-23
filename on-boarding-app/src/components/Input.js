@@ -17,7 +17,7 @@ export default function Input(props) {
         errors={props.errors}
       />
       {errorMessage != 0 && (
-        <p style={{ color: "red", fontSize: ".75em" }}>{errorMessage}</p>
+        <p style={{ color: "red", fontSize: ".55em" }}>{errorMessage}</p>
       )}
     </label>
   );
