@@ -77,6 +77,7 @@ export default function Form() {
 
   const handlSubmit = (e) => {
     e.preventDefault();
+    console.log("formState values: ", formState);
     setFormState(defaultState);
   };
 
